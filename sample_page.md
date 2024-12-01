@@ -1,4 +1,4 @@
-## This can be your internal website page / project page
+## Damage Detective - Generative AI House Inspection Application
 
 **Project description:** 
 Test
