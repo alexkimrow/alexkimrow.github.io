@@ -5,8 +5,8 @@
 <img src="images/logo.png?raw=true"/>
 
 ---
-[Customer Segmentation - Online Retail](/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Customer Segmentation - Online Retail](/customersegmentation)
+<img src="images/"/>
 
 ---
 [Housing Price Prediction](/)
