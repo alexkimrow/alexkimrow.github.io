@@ -1,12 +1,13 @@
 title: Alex Ro # your name (or website title) here
-logo: "/images/1 2.jpeg?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
+logo: '/images/profile.jpeg?raw=true' # your photo (or logo) here
+description:
+  > # your text below (remove <br> elements if you don't need line breaks)
   MS CS Student at Georgia Tech specializing in Machine Learning
   Particular interest in Machine Learning applications including NLP, Computer Vision, and Deep Learning.
   <br><br>
-  <a href="https://www.linkedin.com/in/alexkimro/">View My LinkedIn Profile</a> 
-  
+  <a href="mailto:alexkimro@gmail.com">Email</a> | <a href="https://www.linkedin.com/in/alexkimro/">LinkedIn</a> | <a href="https://github.com/alexkimrow">GitHub</a>
+
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
