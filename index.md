@@ -29,21 +29,41 @@ Georgia Institute of Technology | Specialization: Machine Learning
 
 ---
 
+## Experience
+
+**AI/ML Engineer**  
+_Various Projects & Research_ | 2023 - Present
+
+- Developed generative AI applications using state-of-the-art models (Llama-2, Archetype AI)
+- Built end-to-end data engineering pipelines on AWS with serverless architecture
+- Implemented machine learning models for customer segmentation and predictive analytics
+- Optimized ML workflows using sentiment analysis and prompt engineering techniques
+
+**Data Science Researcher**  
+_Academic & Personal Projects_ | 2022 - Present
+
+- Applied unsupervised learning algorithms (K-Means clustering) for business intelligence
+- Designed and deployed real-time data visualization dashboards using Grafana
+- Conducted exploratory data analysis on large-scale retail datasets
+- Developed ETL pipelines with data quality validation and monitoring
+
+---
+
 # Projects
 
 ---
 
 [Damage Detective - Generative AI House Inspection Application](/damagedetective)
-<img src="images/logo.png?raw=true"/>
+<img src="images/logo.png?raw=true" alt="Damage Detective - AI-powered property inspection using Archetype AI and Llama-2"/>
 
 ---
 
 [AWS Data Engineering Pipeline - Real-Time Weather Analytics](/awsdatapipeline)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/logo.png?raw=true" alt="AWS serverless data pipeline with Lambda, Kinesis, Glue, and Grafana"/>
 
 ---
 
 [Customer Segmentation - Online Retail K-Means Clustering](/customersegmentation)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/logo.png?raw=true" alt="K-Means clustering analysis for customer behavior segmentation"/>
 
 ---
