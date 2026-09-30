@@ -1,27 +1,43 @@
 # About Me
 
-Software engineer and M.S. Computer Science student at Georgia Tech, focused on AI, machine learning, and cloud data architecture. I work on data platforms and applied machine learning, including AWS pipelines, enterprise data systems, and models for vision, language, and forecasting.
+Software engineer and M.S. Computer Science student at Georgia Tech. I focus on AI agents that use the Model Context Protocol (MCP), and on the AWS systems those agents depend on.
 
-I am an engineer on [Reltio](https://www.reltio.com/)’s Cloud Data & AI Platform. Before that I was a data engineer on Divergent’s machine learning additive-manufacturing team, a machine learning engineer at Intext AI, and a graduate teaching assistant for Georgia Tech’s Machine Learning course, CS 7641.
+An agent decides what to do next. MCP is how it discovers tools, passes context, and calls the systems it is allowed to use. The cloud side is AWS: queues, scheduled functions, object storage, and queryable datasets.
+
+<div class="focus-grid">
+<div class="focus-card">
+<h3>AI agents and MCP</h3>
+<p>Tool-using agents. The agent plans the step, MCP exposes the tool, and the call carries only the context that tool needs. That is the interface between the model and the systems it acts on.</p>
+</div>
+<div class="focus-card">
+<h3>AWS</h3>
+<p>Serverless and event-driven cloud. Lambda, EventBridge, SQS, Kinesis Firehose, S3, Glue, Athena, Step Functions, and CloudWatch. The weather pipeline below is the full path from ingest to dashboard.</p>
+</div>
+</div>
+
+I am an engineer on [Reltio](https://www.reltio.com/)’s Cloud Data & AI Platform, a cloud system that supplies real-time enterprise data and business context for AI agents. Before that I was a data engineer on Divergent’s machine learning additive-manufacturing team, a machine learning engineer at Intext AI, and a graduate teaching assistant for Georgia Tech’s Machine Learning course, CS 7641.
 
 ---
 
 ## Technical Skills
 
-**Machine Learning & AI**  
+**AI agents and MCP**  
+Model Context Protocol (MCP) | Tool-using agents | LLMs | Context and tool design
+
+**AWS**  
+Lambda | EventBridge | SQS | Kinesis Firehose | S3 | Glue | Athena | Step Functions | CloudWatch
+
+**Machine learning**  
 Python | PyTorch | scikit-learn | Pandas | NumPy | Matplotlib | Seaborn | OpenCV
 
 **Languages**  
 Python | SQL | Java | JavaScript | C++
 
-**Cloud & Data**  
-AWS (Lambda, S3, Glue, Athena, Kinesis, CloudWatch) | Apache Spark | Azure | Microsoft Fabric | Power BI
+**Other cloud and data**  
+Apache Spark | Azure | Microsoft Fabric | Power BI | Docker | FastAPI | REST | GraphQL | Node.js | MongoDB | MySQL
 
-**Platforms & APIs**  
-Docker | FastAPI | REST | GraphQL | Node.js | MongoDB | MySQL
-
-**Focus areas**  
-Data engineering | Master data management | MLOps | NLP | Computer vision | LLMs and AI agents
+**Also**  
+Master data management | MLOps | NLP | Computer vision
 
 ---
 
@@ -39,7 +55,7 @@ Roles and dates follow my [LinkedIn](https://www.linkedin.com/in/alexkimro/).
 **Engineer**  
 [Reltio](https://www.reltio.com/) · Cloud Data & AI Platform | Jan 2025 – Present
 
-- Engineer on the Cloud Data & AI Platform, Reltio’s cloud product for real-time master data and business context used by enterprise AI workflows.
+- Engineer on the Cloud Data & AI Platform. The product is cloud infrastructure for real-time master data and business context that enterprise AI agents use.
 
 **Graduate Teaching Assistant**  
 [Georgia Institute of Technology](https://www.gatech.edu/) · Machine Learning, CS 7641 | Jan 2025 – Apr 2026 · Remote
@@ -70,13 +86,13 @@ Things Above Apparel | Jan 2021 – Jan 2022
 
 # Projects
 
-Selected work that lines up with the data, machine learning, and software roles above. Each write-up links to the public repository.
+AWS is the cloud project. The other write-ups are applied machine learning, including a multi-model inspection pipeline. Each one links to the public repository.
 
 ---
 
 [AWS Data Engineering Pipeline - Real-Time Weather Analytics](/awsdatapipeline)
 
-Serverless pipeline on AWS: scheduled Lambda ingestion, Kinesis Firehose, S3, Glue, Athena, and Grafana dashboards.
+Serverless analytics on AWS. EventBridge triggers Lambda, Kinesis Firehose lands records in S3, Glue catalogs and transforms them, Athena queries the result, and Step Functions runs the jobs. Grafana is the dashboard. CloudWatch holds the logs.
 
 <img src="images/logo.png?raw=true" alt="AWS serverless data pipeline with Lambda, Kinesis, Glue, and Grafana"/>
 
@@ -92,7 +108,7 @@ Full-stack machine learning app. A Random Forest model trained on Hass Avocado B
 
 [Damage Detective - Generative AI House Inspection](/damagedetective)
 
-Hacklytics 2024 project that pairs a visual question-answering model with Llama-2 to describe property damage and estimate repair cost.
+Hacklytics 2024 project. A visual question-answering model describes the damage, then Llama-2 turns that context into a repair estimate. Two models, one handoff.
 
 <img src="images/logo.png?raw=true" alt="Damage Detective AI property inspection"/>
 
