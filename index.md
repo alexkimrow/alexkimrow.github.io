@@ -1,8 +1,8 @@
 # About Me
 
-Software engineer and M.S. Computer Science student at Georgia Tech. I focus on AI agents that use the Model Context Protocol (MCP), and on the AWS systems those agents depend on.
+Software engineer and M.S. Computer Science student at Georgia Tech. I build AI agents that use the Model Context Protocol (MCP), and the AWS systems those agents run on.
 
-An agent decides what to do next. MCP is how it discovers tools, passes context, and calls the systems it is allowed to use. The cloud side is AWS: queues, scheduled functions, object storage, and queryable datasets.
+An agent chooses the next step. MCP is how it finds a tool, passes only the context that tool needs, and calls it. AWS holds the queues, scheduled jobs, files, and datasets behind that work.
 
 <div class="focus-grid">
 <div class="focus-card">
@@ -15,29 +15,84 @@ An agent decides what to do next. MCP is how it discovers tools, passes context,
 </div>
 </div>
 
-I am an engineer on [Reltio](https://www.reltio.com/)’s Cloud Data & AI Platform, a cloud system that supplies real-time enterprise data and business context for AI agents. Before that I was a data engineer on Divergent’s machine learning additive-manufacturing team, a machine learning engineer at Intext AI, and a graduate teaching assistant for Georgia Tech’s Machine Learning course, CS 7641.
+I am an engineer on [Reltio](https://www.reltio.com/)’s Cloud Data & AI Platform. The product supplies real-time enterprise data and business context for AI agents.
+
+Before that I was a data engineer on Divergent’s machine-learning manufacturing team, a machine learning engineer at Intext AI, and a teaching assistant for Georgia Tech’s Machine Learning course, CS 7641.
 
 ---
 
 ## Technical Skills
 
-**AI agents and MCP**  
-Model Context Protocol (MCP) | Tool-using agents | LLMs | Context and tool design
+<div class="skill-group">
+<h3>AI agents and MCP</h3>
+<ul class="tags">
+<li>Model Context Protocol (MCP)</li>
+<li>Tool-using agents</li>
+<li>LLMs</li>
+<li>Context and tool design</li>
+</ul>
+</div>
 
-**AWS**  
-Lambda | EventBridge | SQS | Kinesis Firehose | S3 | Glue | Athena | Step Functions | CloudWatch
+<div class="skill-group">
+<h3>AWS</h3>
+<ul class="tags">
+<li>Lambda</li>
+<li>EventBridge</li>
+<li>SQS</li>
+<li>Kinesis Firehose</li>
+<li>S3</li>
+<li>Glue</li>
+<li>Athena</li>
+<li>Step Functions</li>
+<li>CloudWatch</li>
+</ul>
+</div>
 
-**Machine learning**  
-Python | PyTorch | scikit-learn | Pandas | NumPy | Matplotlib | Seaborn | OpenCV
+<div class="skill-group">
+<h3>Machine learning</h3>
+<ul class="tags">
+<li>Python</li>
+<li>PyTorch</li>
+<li>scikit-learn</li>
+<li>Pandas</li>
+<li>NumPy</li>
+<li>Matplotlib</li>
+<li>Seaborn</li>
+<li>OpenCV</li>
+</ul>
+</div>
 
-**Languages**  
-Python | SQL | Java | JavaScript | C++
+<div class="skill-group">
+<h3>Languages</h3>
+<ul class="tags">
+<li>Python</li>
+<li>SQL</li>
+<li>Java</li>
+<li>JavaScript</li>
+<li>C++</li>
+</ul>
+</div>
 
-**Other cloud and data**  
-Apache Spark | Azure | Microsoft Fabric | Power BI | Docker | FastAPI | REST | GraphQL | Node.js | MongoDB | MySQL
-
-**Also**  
-Master data management | MLOps | NLP | Computer vision
+<div class="skill-group">
+<h3>Other cloud and data</h3>
+<ul class="tags">
+<li>Apache Spark</li>
+<li>Azure</li>
+<li>Microsoft Fabric</li>
+<li>Power BI</li>
+<li>Docker</li>
+<li>FastAPI</li>
+<li>REST</li>
+<li>GraphQL</li>
+<li>Node.js</li>
+<li>MongoDB</li>
+<li>MySQL</li>
+<li>Master data management</li>
+<li>MLOps</li>
+<li>NLP</li>
+<li>Computer vision</li>
+</ul>
+</div>
 
 ---
 
@@ -52,81 +107,89 @@ Georgia Institute of Technology | Specialization: AI / Machine Learning
 
 Roles and dates follow my [LinkedIn](https://www.linkedin.com/in/alexkimro/).
 
-**Engineer**  
-[Reltio](https://www.reltio.com/) · Cloud Data & AI Platform | Jan 2025 – Present
+<div class="role">
+<h3>Engineer</h3>
+<p class="role-meta"><a href="https://www.reltio.com/">Reltio</a> · Cloud Data &amp; AI Platform<br>Jan 2025 – Present</p>
+<ul>
+<li>Engineer on the Cloud Data &amp; AI Platform. The product is cloud infrastructure for real-time master data and business context that enterprise AI agents use.</li>
+</ul>
+</div>
 
-- Engineer on the Cloud Data & AI Platform. The product is cloud infrastructure for real-time master data and business context that enterprise AI agents use.
+<div class="role">
+<h3>Graduate Teaching Assistant</h3>
+<p class="role-meta"><a href="https://www.gatech.edu/">Georgia Institute of Technology</a> · Machine Learning, CS 7641<br>Jan 2025 – Apr 2026 · Remote</p>
+<ul>
+<li>Teaching assistant for the graduate Machine Learning course, CS 7641.</li>
+</ul>
+</div>
 
-**Graduate Teaching Assistant**  
-[Georgia Institute of Technology](https://www.gatech.edu/) · Machine Learning, CS 7641 | Jan 2025 – Apr 2026 · Remote
+<div class="role">
+<h3>Machine Learning Engineer</h3>
+<p class="role-meta"><a href="https://www.linkedin.com/company/intext-ai">Intext AI</a><br>Jun 2025 – Aug 2025</p>
+<ul>
+<li>Machine learning engineering role at an early-stage AI company.</li>
+</ul>
+</div>
 
-- Teaching assistant for the graduate Machine Learning course, CS 7641.
+<div class="role">
+<h3>Data Engineer</h3>
+<p class="role-meta"><a href="https://www.linkedin.com/company/divergenttechnologies">Divergent</a> · Machine Learning Additive Manufacturing, Software<br>Jul 2024 – Nov 2024 · Los Angeles, California</p>
+<ul>
+<li>Data engineer on the machine learning additive-manufacturing software team at Divergent, a digital manufacturing company.</li>
+</ul>
+</div>
 
-**Machine Learning Engineer**  
-[Intext AI](https://www.linkedin.com/company/intext-ai) | Jun 2025 – Aug 2025
+<div class="role">
+<h3>Engineer</h3>
+<p class="role-meta"><a href="https://www.linkedin.com/company/futuresoft-inc.">FutureSoft, Inc.</a><br>Apr 2022 – Jun 2024 · Houston, Texas</p>
+<ul>
+<li>Software engineer at FutureSoft in Houston. The company builds terminal-emulation software.</li>
+</ul>
+</div>
 
-- Machine learning engineering role at an early-stage AI company.
-
-**Data Engineer**  
-[Divergent](https://www.linkedin.com/company/divergenttechnologies) · Machine Learning Additive Manufacturing, Software | Jul 2024 – Nov 2024 · Los Angeles, California
-
-- Data engineer on the machine learning additive-manufacturing software team at Divergent, a digital manufacturing company.
-
-**Engineer**  
-[FutureSoft, Inc.](https://www.linkedin.com/company/futuresoft-inc.) | Apr 2022 – Jun 2024 · Houston, Texas
-
-- Software engineer at FutureSoft in Houston. The company builds terminal-emulation software.
-
-**Junior Software Engineer**  
-Things Above Apparel | Jan 2021 – Jan 2022
-
-- Junior software engineer at Things Above Apparel.
+<div class="role">
+<h3>Junior Software Engineer</h3>
+<p class="role-meta">Things Above Apparel<br>Jan 2021 – Jan 2022</p>
+<ul>
+<li>Junior software engineer at Things Above Apparel.</li>
+</ul>
+</div>
 
 ---
 
 # Projects
 
-AWS is the cloud project. The other write-ups are applied machine learning, including a multi-model inspection pipeline. Each one links to the public repository.
+The AWS pipeline is the cloud project. The other write-ups are applied machine learning. Each title links to the full page.
 
----
-
-[AWS Data Engineering Pipeline - Real-Time Weather Analytics](/awsdatapipeline)
-
-Serverless analytics on AWS. EventBridge triggers Lambda, Kinesis Firehose lands records in S3, Glue catalogs and transforms them, Athena queries the result, and Step Functions runs the jobs. Grafana is the dashboard. CloudWatch holds the logs.
-
+<div class="project">
+<h3><a href="/awsdatapipeline">AWS Data Engineering Pipeline</a></h3>
+<p>Real-time weather analytics. EventBridge starts Lambda, Kinesis Firehose lands records in S3, and Glue, Athena, and Step Functions feed a Grafana dashboard.</p>
 <img class="project-shot" src="/images/aws-pipeline.png" alt="AWS architecture diagram for the weather pipeline: Lambda, Kinesis Firehose, S3, Glue, Athena, and Grafana"/>
+</div>
 
----
-
-[Guaconomics - Avocado Price Predictor](/guaconomics)
-
-Full-stack machine learning app. A Random Forest model trained on Hass Avocado Board data serves price predictions through a Flask API and a Next.js interface.
-
+<div class="project">
+<h3><a href="/guaconomics">Guaconomics</a></h3>
+<p>Avocado price predictor. A Random Forest model, trained on Hass Avocado Board data, serves predictions through Flask and Next.js.</p>
 <img class="project-shot" src="/images/guaconomics.png" alt="Guaconomics screen for predicting avocado prices"/>
+</div>
 
----
-
-[Damage Detective - Generative AI House Inspection](/damagedetective)
-
-Hacklytics 2024 project. A visual question-answering model describes the damage, then Llama-2 turns that context into a repair estimate. Two models, one handoff.
-
+<div class="project">
+<h3><a href="/damagedetective">Damage Detective</a></h3>
+<p>Hacklytics 2024. A visual question-answering model describes the damage, then Llama-2 turns that context into a repair estimate.</p>
 <img class="project-shot" src="/images/logo.png" alt="Damage Detective logo"/>
+</div>
 
----
-
-[Customer Segmentation - Online Retail K-Means](/customersegmentation)
-
-Unsupervised segmentation of online retail customers with monetary value, recency, and frequency features.
-
+<div class="project">
+<h3><a href="/customersegmentation">Customer Segmentation</a></h3>
+<p>K-Means clusters of online retail customers, using monetary value, recency, and frequency.</p>
 <img class="project-shot" src="/images/customer-segments.png" alt="3D scatter plot of customer clusters by monetary value, frequency, and recency"/>
+</div>
 
----
-
-[Jireh - Family Budget Tracker](/jireh)
-
-Expo and React Native app for logging family income and expenses, with running totals for income, spending, and balance.
-
+<div class="project">
+<h3><a href="/jireh">Jireh</a></h3>
+<p>Family budget tracker in Expo and React Native. It logs income and expenses and shows the running balance.</p>
 <img class="project-shot" src="/images/jireh.jpg" alt="Jireh app icon"/>
+</div>
 
 ---
 

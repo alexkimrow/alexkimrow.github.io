@@ -2,8 +2,8 @@ title: Alex Ro # your name (or website title) here
 logo: '/images/profile.jpg' # your photo (or logo) here
 description:
   > # your text below (remove <br> elements if you don't need line breaks)
-  AI agents and MCP, on AWS.
-  M.S. Computer Science student at Georgia Tech, specializing in AI/ML.
+  AI agents, MCP, and AWS.<br>
+  M.S. CS, Georgia Tech.
   <br><br>
   <a href="mailto:alexkimro@gmail.com">Email</a> | <a href="https://www.linkedin.com/in/alexkimro/">LinkedIn</a> | <a href="https://github.com/alexkimrow">GitHub</a>
 
