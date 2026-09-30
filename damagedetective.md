@@ -1,5 +1,7 @@
 ## Damage Detective - Generative AI House Inspection Application
 
+<img class="project-shot" src="/images/logo.png" alt="Damage Detective logo"/>
+
 **Project Description:**
 
 An innovative AI-powered house inspection application that leverages generative AI models to automate damage detection and cost estimation. Built during Hacklytics 2024 hackathon, this solution transforms the time-consuming, expensive traditional inspection process into an instant, accessible service.

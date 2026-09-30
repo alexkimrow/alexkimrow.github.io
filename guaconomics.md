@@ -1,5 +1,7 @@
 ## Guaconomics - Avocado Price Predictor
 
+<img class="project-shot" src="/images/guaconomics.png" alt="Guaconomics screen for predicting avocado prices"/>
+
 **Project Description:**
 
 A full-stack machine learning app that predicts U.S. avocado prices from region, type, size, and year. A Random Forest regressor serves predictions from a Flask API, and a Next.js front end turns the price into a short, tongue-in-cheek verdict.

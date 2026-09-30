@@ -94,7 +94,7 @@ AWS is the cloud project. The other write-ups are applied machine learning, incl
 
 Serverless analytics on AWS. EventBridge triggers Lambda, Kinesis Firehose lands records in S3, Glue catalogs and transforms them, Athena queries the result, and Step Functions runs the jobs. Grafana is the dashboard. CloudWatch holds the logs.
 
-<img src="images/logo.png?raw=true" alt="AWS serverless data pipeline with Lambda, Kinesis, Glue, and Grafana"/>
+<img class="project-shot" src="/images/aws-pipeline.png" alt="AWS architecture diagram for the weather pipeline: Lambda, Kinesis Firehose, S3, Glue, Athena, and Grafana"/>
 
 ---
 
@@ -102,7 +102,7 @@ Serverless analytics on AWS. EventBridge triggers Lambda, Kinesis Firehose lands
 
 Full-stack machine learning app. A Random Forest model trained on Hass Avocado Board data serves price predictions through a Flask API and a Next.js interface.
 
-<img src="images/logo.png?raw=true" alt="Guaconomics avocado price prediction app"/>
+<img class="project-shot" src="/images/guaconomics.png" alt="Guaconomics screen for predicting avocado prices"/>
 
 ---
 
@@ -110,7 +110,7 @@ Full-stack machine learning app. A Random Forest model trained on Hass Avocado B
 
 Hacklytics 2024 project. A visual question-answering model describes the damage, then Llama-2 turns that context into a repair estimate. Two models, one handoff.
 
-<img src="images/logo.png?raw=true" alt="Damage Detective AI property inspection"/>
+<img class="project-shot" src="/images/logo.png" alt="Damage Detective logo"/>
 
 ---
 
@@ -118,7 +118,7 @@ Hacklytics 2024 project. A visual question-answering model describes the damage,
 
 Unsupervised segmentation of online retail customers with monetary value, recency, and frequency features.
 
-<img src="images/logo.png?raw=true" alt="K-Means customer segmentation"/>
+<img class="project-shot" src="/images/customer-segments.png" alt="3D scatter plot of customer clusters by monetary value, frequency, and recency"/>
 
 ---
 
@@ -126,7 +126,7 @@ Unsupervised segmentation of online retail customers with monetary value, recenc
 
 Expo and React Native app for logging family income and expenses, with running totals for income, spending, and balance.
 
-<img src="images/logo.png?raw=true" alt="Jireh family budget tracker"/>
+<img class="project-shot" src="/images/jireh.jpg" alt="Jireh app icon"/>
 
 ---
 

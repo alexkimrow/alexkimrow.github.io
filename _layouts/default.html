@@ -76,6 +76,82 @@
       .focus-card p {
          margin: 0;
       }
+      .profile-photo {
+         width: 168px;
+         height: 168px;
+         max-width: 100%;
+         object-fit: cover;
+         border-radius: 50%;
+         display: block;
+      }
+      img.project-shot {
+         display: block;
+         width: 100%;
+         height: auto;
+         margin: 8px 0 20px;
+         border: 1px solid #e6e6e6;
+         border-radius: 8px;
+         background: #fff;
+      }
+      header p,
+      section {
+         overflow-wrap: break-word;
+      }
+      pre {
+         max-width: 100%;
+         overflow-x: auto;
+         -webkit-overflow-scrolling: touch;
+      }
+      @media screen and (max-width: 960px) {
+         body {
+            padding: 16px;
+         }
+         div.wrapper {
+            width: auto;
+            margin: 0;
+         }
+         header,
+         section,
+         footer {
+            float: none;
+            position: static;
+            width: auto;
+         }
+         header {
+            padding: 0 0 4px;
+         }
+         header ul,
+         header p.view {
+            position: static;
+         }
+         section {
+            border: 0;
+            padding: 8px 0 32px;
+            margin: 0;
+         }
+         footer {
+            bottom: auto;
+         }
+         .profile-photo {
+            width: 112px;
+            height: 112px;
+         }
+         .focus-grid {
+            grid-template-columns: 1fr;
+         }
+         nav ul {
+            gap: 8px;
+         }
+         nav ul li a {
+            display: inline-block;
+            padding: 8px 12px;
+            background: #fff;
+            border: 1px solid #e5e5e5;
+         }
+         h1 {
+            font-size: 26px;
+         }
+      }
       @media screen and (max-width: 700px) {
          .focus-grid {
             grid-template-columns: 1fr;
@@ -88,7 +164,7 @@
       <header>
          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
          {% if site.logo %}
-         <img src="{{site.logo | relative_url}}" alt="Logo" />
+         <img class="profile-photo" src="{{site.logo | relative_url}}" alt="Alex Ro" />
          {% endif %}
          <p>{{ site.description | default: site.github.project_tagline }}</p>
          {% if site.github.is_project_page %}

@@ -1,5 +1,7 @@
 ## AWS Data Engineering Pipeline - Real-Time Weather Analytics
 
+<img class="project-shot" src="/images/aws-pipeline.png" alt="AWS architecture diagram for the weather pipeline"/>
+
 **Project Description:**
 
 An end-to-end serverless pipeline on AWS. It ingests real-time weather data, transforms it, and serves it to Grafana. This is the cloud project on the portfolio: Lambda, EventBridge, Kinesis Firehose, S3, Glue, Athena, Step Functions, and CloudWatch.
