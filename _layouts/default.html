@@ -20,13 +20,32 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
    <![endif]-->
    <style>
+      body {
+         color: #2b2b2b;
+         font-size: 16px;
+         line-height: 1.65;
+      }
+      h1, h2, h3 {
+         line-height: 1.25;
+         letter-spacing: -0.01em;
+      }
+      h2 {
+         margin-top: 1.75em;
+      }
+      a:hover, a:focus {
+         font-weight: inherit;
+      }
+      header {
+         font-size: 15px;
+         line-height: 1.5;
+      }
       @media screen and (min-width: 1200px) {
          .wrapper {
-            width: 1100px;
-            max-width: 90%;
+            width: 1040px;
+            max-width: 92%;
          }
          section {
-            width: 740px;
+            width: 640px;
          }
       }
       nav {
@@ -75,6 +94,56 @@
       }
       .focus-card p {
          margin: 0;
+         font-size: 15px;
+         line-height: 1.55;
+      }
+      .skill-group {
+         margin: 0 0 18px;
+      }
+      .skill-group h3 {
+         margin: 0 0 8px;
+         font-size: 16px;
+      }
+      ul.tags {
+         list-style: none;
+         padding: 0;
+         margin: 0;
+         display: flex;
+         flex-wrap: wrap;
+         gap: 6px;
+      }
+      ul.tags li {
+         margin: 0;
+         padding: 4px 10px;
+         background: #f3f6fa;
+         border: 1px solid #e3e8ef;
+         border-radius: 999px;
+         color: #243040;
+         font-size: 14px;
+         line-height: 1.35;
+      }
+      .role {
+         margin: 0 0 22px;
+      }
+      .role h3 {
+         margin: 0 0 2px;
+         font-size: 17px;
+      }
+      .role-meta {
+         margin: 0 0 8px;
+         color: #3d3d3d;
+         font-size: 15px;
+         line-height: 1.45;
+      }
+      .project {
+         margin: 0 0 28px;
+      }
+      .project h3 {
+         margin: 0 0 6px;
+         font-size: 18px;
+      }
+      .project p {
+         margin-bottom: 10px;
       }
       .profile-photo {
          width: 168px;
