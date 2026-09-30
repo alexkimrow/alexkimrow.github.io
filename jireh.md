@@ -1,5 +1,7 @@
 ## Jireh - Family Budget Tracker
 
+<img class="project-shot" src="/images/jireh.jpg" alt="Jireh app icon"/>
+
 **Project Description:**
 
 A mobile and web budget app for tracking a family’s income and spending. The home screen shows income, expenses, and the remaining balance, and it accepts new transactions by amount, category, and date.

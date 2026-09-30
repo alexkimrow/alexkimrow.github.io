@@ -1,5 +1,7 @@
 ## Customer Segmentation - Online Retail K-Means Clustering
 
+<img class="project-shot" src="/images/customer-segments.png" alt="3D scatter plot of customer clusters"/>
+
 **Project Description**
 
 Customer segmentation is crucial for businesses to understand their customer base and tailor marketing strategies effectively. This data science project applies unsupervised learning techniques to segment customers of an online retail store based on their purchasing behavior patterns using the MRF (Monetary Value, Recency, and Frequency) framework.
