@@ -2,7 +2,7 @@
 
 **Project Description:**
 
-An end-to-end serverless data engineering pipeline that ingests real-time weather data from external APIs, processes and transforms it using AWS services, and visualizes insights through interactive Grafana dashboards. This project demonstrates modern cloud-native data architecture with automated orchestration and quality checks.
+An end-to-end serverless pipeline on AWS. It ingests real-time weather data, transforms it, and serves it to Grafana. This is the cloud project on the portfolio: Lambda, EventBridge, Kinesis Firehose, S3, Glue, Athena, Step Functions, and CloudWatch.
 
 **GitHub Repository:** [aws-data-ingestion-visualization](https://github.com/alexkimrow/aws-data-ingestion-visualization)
 
